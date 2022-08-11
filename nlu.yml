@@ -1,0 +1,32 @@
+version: "3.1"
+
+nlu:
+
+    
+- intent: weather
+  examples: |
+    - whats the weather
+    - i want to know the weather of today
+    - tell me the weather forecast
+    - hows the weather today
+    
+- intent: city
+  examples: |
+    - delhi
+    - Delhi
+    - chandigarh
+    - mohali
+    - mumbai
+    - jaipur
+    
+
+
+
+
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
